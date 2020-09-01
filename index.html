@@ -11,7 +11,6 @@
 
         gtag('config', 'UA-168018937-1');
     </script>
-
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Haruka Ashiuchi | 芦内晴香</title>
@@ -22,23 +21,94 @@
     html {
         margin: 0;
         padding: 0;
-        font-size: 100%;
-        font-family: 'Inter', 'Hiragino Kaku GothicProN';
+        font-family: 'Inter', 'Hiragino Kaku GothicProN', sans-serif;
     }
 
-    main {
-        padding: 64px;
+    ul {
+        padding-inline-start: 0px;
+    }
+
+    li {
+        list-style: none;
+        line-height: 1.5;
+    }
+
+    a {
+        color: #1a237e;
+    }
+
+    p {
+        font-size: 18px;
+    }
+
+    #container,
+    .foot__inner {
+        max-width: 720px;
+        margin: 0 auto;
+    }
+
+    .name {
+        font-size: 24px;
+    }
+
+    .heading {
+        font-size: 17px;
+    }
+
+    .column {
+        margin: 40px 0 0;
+    }
+
+    .copyright {
+        font-size: 1em;
     }
 </style>
 
 <body>
-    <main>
-        <h1>Haruka Ashiuchi | 芦内 晴香</h1>
-        <p>I'm a Designer, Developer based in Japan. I'm currently working on Hatena Co., Ltd.</p>
-        <ul>
-            <li><a href="mailto:haruka510a@gmail.com?subject=Hello">Send me an email</a></li>
-        </ul>
+    <main id="container">
+        <h1 class="name">Haruka Ashiuchi | 芦内 晴香</h1>
+        <p>Designer</p>
+
+        <p class="lead">if you want more details about something:<br>
+            haruka510a@gmail.com
+        </p>
+        <div class="social column">
+            <h2 class="heading">Social</h2><!-- /.heading -->
+            <li><a href="https://twitter.com/thisisassy" target="_new">Twitter</a></li>
+            <li><a href="https://github.com/thisisassy" target="_new">Github</a></li>
+            <li><a href="https://www.linkedin.com/in/harukaashiuchi/" target="_new">Linkedin</a></li>
+        </div><!-- /.social -->
+
+        <div class="background column">
+            <h2 class="heading">
+                Background
+            </h2><!-- /.heading -->
+            <li>Born and Lived in Nishinomiya city since 1994</li>
+            <li>Graduated from Kyoto Seika University in 2018</li>
+            <li>2018 - 2019 IMG SRC inc.</li>
+            <li>2019 mount inc.</li>
+            <li>2020 Hatena Co., Ltd.</li>
+        </div><!-- /.background -->
+
+        <div class="works column">
+            <h2 class="heading">Relevant works</h2><!-- /.heading -->
+            <h4>2020</h4>
+            <ul>
+                <li>Designed and developed Blog theme which minimal "Neutral" as Hatena Blog Official theme.</li>
+            </ul>
+            <h4>2019</h4>
+            <ul>
+                <li>Coded a Teaser pages of <a href="http://appe-tide.com/" target="_new">APPE-TIDE</a></li>
+            </ul>
+            <h4>~2018</h4>
+            <ul>
+                <li>if you know more about my past works, you can check <a href="" target="_new">this page</a></li>
+            </ul>
+        </div><!-- /.works -->
     </main>
+    <footer class="foot__inner">
+        <p class="copyright"><span>&copy;</span>2020 Haruka Ashiuchi</p>
+    </footer><!-- /.foot__inner -->
 
 </body>
 
